@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=STIX+Two+Text&display=swap');
+
+
+body{
+    overflow-x:hidden;
+}
+.bg-default{
+    background-color: blueviolet !important;
+    height: 70px;
+}
+.navbar-brand{
+    font-family: 'STIX Two Text',serif;
+    font-size: xx-large;
+    margin-left: 30px;
+    
+}
+img{
+    height: 70px;
+    width:70px;
+}
+button{
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'STIX Two Text', serif;
+}
+.loader-position{
+    display: flex;
+    justify-content: center;
+}
+.loader{
+    margin-top:10%;
+    border:10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid blueviolet;
+    width:70px;
+    height: 70px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.card-display{
+    display: flex-row;
+    justify-content: center;
+}
+.btn{
+    margin-left: 1000px;;
+}
